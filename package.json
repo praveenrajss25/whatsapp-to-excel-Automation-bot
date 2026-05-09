@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-to-excel",
+  "version": "1.0.0",
+  "description": "Save WhatsApp photos and voice messages to Excel automatically",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "fs-extra": "^11.2.0",
+    "openai": "^4.20.0",
+    "qrcode-terminal": "^0.12.0",
+    "tesseract.js": "^7.0.0",
+    "whatsapp-web.js": "^1.34.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
